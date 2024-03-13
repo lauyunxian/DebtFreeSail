@@ -1,0 +1,71 @@
+@import '../../vars.css';
+
+body {
+  background-color: black; /* Dark grey background color */
+  color: #fff; /* White text color for better contrast */
+}
+
+* {
+  margin: 0;
+  font-family: var(--font-jaldi), sans-serif;
+  color: #00C2FF;
+}
+
+.content {
+  background-color: black;
+  max-width: 1500px;
+  margin: 10px auto;
+  padding: 20px;
+  max-height: 100px; 
+}
+
+.roundImage {
+  border-radius: 50%; 
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  margin-top: -25px;
+}
+
+.inLine{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.element{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 23px; 
+    font-family: var(--font-jaldi);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: var(--bg-color);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdownContent a {
+  color: var(--font-color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdownContent a:hover {
+  background-color: black;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}

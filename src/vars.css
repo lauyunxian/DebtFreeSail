@@ -1,0 +1,16 @@
+@import url(https://db.onlinewebfonts.com/c/381560810e4c36d16a07abb03254e264?family=JejuGothic);
+@import url(https://db.onlinewebfonts.com/c/1a5c2d8bbd4e28d99a6efcbb9a5b378f?family=JejuMyeongjo);
+@import url(https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap);
+
+:root{
+    /* Color */
+    --bg-color: #17262B;
+    --login-signup-btn: #D9D9D9;
+
+    /* Font */
+    --font-color: #00C2FF;
+    --font-roboto: "Roboto";
+    --font-jaldi: "Jaldi";
+    --font-gothic: "JejuGothic";
+    --font-myeongjo: "JejuMyeongjo";
+}

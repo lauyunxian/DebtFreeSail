@@ -1,0 +1,14 @@
+@import './vars.css';
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  background-color: var(--bg-color);
+}
+
+body{
+  background-color: var(--bg-color);
+}
