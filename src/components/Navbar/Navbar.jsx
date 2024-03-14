@@ -10,14 +10,14 @@ function Navbar() {
             <div className={styles.inLine}>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                     <img src={logoImage} alt="Profile Picture" className={styles.roundImage} />
-                    <a className={styles.title} href="/#" style={{ fontSize: '30px', fontWeight: '300',  textDecoration: 'none', marginTop: '-8px'}}>Debt Free Sail</a>
+                    <a href="/#" style={{ fontSize: '30px', fontWeight: '300',  textDecoration: 'none', marginLeft:'20px'}}>Debt Free Sail</a>
                 </div>
 
                 <div>
                     <a href="/home" className={styles.element}>Home</a>
                     <a href="/about" className={styles.element}>About Us</a>
                     <div className={styles.dropdown}>
-                        <a href="/#" className={styles.element}>What We Offer</a>
+                        <a className={styles.element}>What We Offer</a>
                         <div className={styles.dropdownContent}>
                             {Menus.map((menu, index) => (
                                 <a key={index} href={`/${menu.toLowerCase().replace(' ', '-')}`} className={styles.dropdownItem}>{menu}</a>
