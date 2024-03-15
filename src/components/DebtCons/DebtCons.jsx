@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './DebtCons.module.css';
 
-import Statistic from './Statistic';
 import Plans from './Plans';
 import InterestCalculator from './Calculator';
 
@@ -23,8 +22,6 @@ function DebtCons() {
                 first step towards financial freedom today!
                 </p>
             </div>
-
-            {/* <Statistic /> */}
 
             <h1 className={styles.title} style={{fontFamily:'fantasy', fontSize:'30px', textAlign:'center', paddingBottom:'30px'}}>Key Benefits</h1>
             <center><div className={styles.container1}>
@@ -156,7 +153,7 @@ function DebtCons() {
             <br />
 
             <h1 className={styles.title} style={{fontFamily:'fantasy', textAlign:'center', paddingTop:'0px'}}>Calculator & Result</h1>
-            <p style={{textAlign:'center', color:'white', paddingBottom:'30px'}}>This is solely for calculation purpose</p>
+            <p style={{textAlign:'center', color:'white', paddingBottom:'30px'}}>Count your debt repayment by entering the amount and tenure</p>
 
             <InterestCalculator />
 

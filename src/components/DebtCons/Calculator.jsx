@@ -1,38 +1,68 @@
 import React, { useState } from 'react';
-import styles from './DebtCons.module.css';
 
 function InterestCalculator() {
     const [amount, setAmount] = useState('');
-    const [interest, setInterest] = useState(9);
+    const [tenure, setTenure] = useState('');
     const [result, setResult] = useState(0);
+    const [repaymentPerMonth, setRepaymentPerMonth] = useState(0);
+    const [interestAmount, setInterestAmount] = useState(0);
 
     const handleAmountChange = (event) => {
         setAmount(event.target.value);
     };
 
+    const handleTenureChange = (event) => {
+        setTenure(event.target.value);
+    };
+
     const calculateInterest = () => {
         const parsedAmount = parseFloat(amount);
-        if (!isNaN(parsedAmount)) {
-            const calculatedResult = parsedAmount * (interest / 100);
+        const parsedTenure = parseFloat(tenure);
+        if (!isNaN(parsedAmount) && !isNaN(parsedTenure)) {
+            const calculatedResult = parsedAmount * 1.09;
             setResult(calculatedResult);
+
+            const calculatedInterestAmount = parsedAmount * 0.09; 
+            setInterestAmount(calculatedInterestAmount);
+
+            const calculatedRepaymentPerMonth = calculatedResult / (parsedTenure * 12); 
+            setRepaymentPerMonth(calculatedRepaymentPerMonth);
         } else {
             setResult(0);
+            setRepaymentPerMonth(0);
+            setInterestAmount(0);
         }
     };
 
     return (
-        <center><div style={{ backgroundColor: 'white', padding: '20px', width:'900px', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', textAlign: 'left'}}>
-            <div>
-                <label htmlFor="amount">Enter Amount: </label>
-                <input type="number" id="amount" value={amount} onChange={handleAmountChange} />
+        <center>
+            <div style={{ backgroundColor:'white', padding:'20px', width:'750px', borderRadius:'10px', boxShadow:'0 4px 8px rgba(0, 0, 0, 0.1)', textAlign:'left' }}>
+                <div style={{paddingBottom:'20px'}}>
+                    <label htmlFor="amount" style={{color:'black', fontSize:'20px'}}>Amount: RM </label>
+                    <input type="number" id="amount" value={amount} onChange={handleAmountChange} style={{color:'black', fontSize:'18px'}}/>
+                </div>
+
+                <div style={{paddingBottom:'20px'}}>
+                    <label htmlFor="tenure" style={{color:'black', fontSize:'20px'}}>Tenure (years): </label>
+                    <input type="number" id="tenure" value={tenure} onChange={handleTenureChange} style={{color:'black', fontSize:'18px'}}/>
+                </div>
+
+                <p style={{ paddingBottom:'10px', color:'black', fontSize:'20px'}}>Interest: 9%</p>
+                
+                <div style={{ paddingBottom:'10px'}}>
+                    <p style={{ color:'black', fontSize:'20px'}}>Interest Amount:</p>
+                    <p style={{ paddingBottom:'10px', color:'black', fontSize:'18px'}}>RM {interestAmount.toFixed(2)}</p>
+
+                    <p style={{ color:'black', fontSize:'20px'}}>Total Amount Include Interest:</p>
+                    <p style={{ paddingBottom:'10px', color:'black', fontSize:'18px'}}>RM {result.toFixed(2)}</p>
+
+                    <p style={{ color:'black', fontSize:'20px'}}>Repayment Per Month:</p>
+                    <p style={{ paddingBottom:'10px', color:'black', fontSize:'18px'}}>RM {repaymentPerMonth.toFixed(2)}</p>
+                </div>
+
+                <button onClick={calculateInterest} style={{ paddingBottom:'10px', color:'black', fontSize:'18px'}}>Calculate</button>
             </div>
-            <p>Interest: 9%</p>
-            <button onClick={calculateInterest}>Calculate</button>
-            <div>
-                <p>Interest Result:</p>
-                <p>{result.toFixed(2)}</p>
-            </div>
-        </div></center>
+        </center>
     );
 }
 
