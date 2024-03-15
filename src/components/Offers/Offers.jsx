@@ -12,7 +12,7 @@ const Offer = () => {
             <h2>Debt Solution</h2>
             <h3 style={{ fontSize: '1.3em', color: '#b0e0e6', marginBottom: '5px' }}>Break Free Ease</h3>
             <p style={{color:'white'}}>Low-Interest solution to settle debt strees-free</p>
-            <a href="/debt-solution">Read More</a>
+            <a href="/debt-consolidation">Read More</a>
           </div>
         </div>
         <div class={styles.box}>
