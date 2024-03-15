@@ -7,6 +7,7 @@ const DebtConsolidation = () => {
   return (
     <>
     <Navbar />
+    <br />
     <DebtCons />
     <Footer />
     </>
