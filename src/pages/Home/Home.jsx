@@ -9,6 +9,8 @@ const Home = () => {
   return (
     <>
         <Navbar />
+        <br />
+        <br />
         <Offer />
         <News />
         <Testimonial />
@@ -17,4 +19,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;

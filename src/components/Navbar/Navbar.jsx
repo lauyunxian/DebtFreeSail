@@ -4,23 +4,23 @@ import './Navbar.css';
 function Navbar() {
     return (
         <nav>
-            <div class="wrapper">
-                <div class="logo">
+            <div className="wrapper">
+                <div className="logo">
                     <a href="/#">Debt Free Sail</a>
                 </div>
                 <input type="radio" name="slider" id="menu-btn" />
                 <input type="radio" name="slider" id="close-btn" />
-                <ul class="nav-links">
-                    <label for="close-btn" class="btn close-btn">
-                        <i class="fas fa-times"></i>
+                <ul className="nav-links">
+                    <label htmlFor="close-btn" className="btn close-btn">
+                        <i className="fas fa-times"></i>
                     </label>
                     <li><a href="/home">Home</a></li>
                     <li><a href="/about">About Us</a></li>
                     <li>
-                        <a class="desktop-item">What We Offer</a>
+                        <a className="desktop-item">What We Offer</a>
                         <input type="checkbox" id="showDrop" />
-                        <label for="showDrop" class="mobile-item">Dropdown Menu</label>
-                        <ul class="drop-menu">
+                        <label htmlFor="showDrop" className="mobile-item">Dropdown Menu</label>
+                        <ul className="drop-menu">
                             <li><a href="/debt-consolidation">Debt Consolidation</a></li>
                             <li><a href="/investment-scheme">Investment Scheme</a></li>
                             <li><a href="/financial-education">Financial Education</a></li>
@@ -30,7 +30,7 @@ function Navbar() {
                 <li><a href="/#">Contact Us</a></li>
                 </ul>
                 <label for="menu-btn" class="btn menu-btn">
-                    <i class="fas fa-bars"></i>
+                    <i className="fas fa-bars"></i>
                 </label>
             </div>
         </nav>

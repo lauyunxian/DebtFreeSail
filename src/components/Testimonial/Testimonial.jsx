@@ -4,7 +4,7 @@ import starImg from '../../../assets/5StarRating.webp'
 
 const Testimonial = () => {
     return (
-        <section className={styles.container}>
+        <div className={styles.container}>
             <h1 className={styles.title} style={{fontFamily:'fantasy', fontWeight:'30', fontSize:'40px'}}>Testimonials</h1>
             <div className={styles.testimonials}>
                 <div className={styles.testimonial}>
@@ -30,7 +30,7 @@ const Testimonial = () => {
             <br />
             <br />
 
-        </section>
+        </div>
     )
 }
 
