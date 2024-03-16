@@ -1,0 +1,239 @@
+.container {
+  width: 100%;
+  max-width: 768px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #d8dbce; /* Adjust background color as needed */
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.ctaForm {
+  margin-bottom: 2rem;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+    margin-right: 2rem;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 25ch;
+    margin: 0 auto;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      text-align: left;
+      margin: 0;
+    }
+  }
+
+  p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 24ch;
+  }
+}
+
+.form {
+  align-self: center;
+}
+
+.formInput {
+  width: clamp(120px, 50vw, 420px);
+  height: 2.5rem;
+  padding: 0 1.25rem;
+  border: 1px solid #303030; /* Adjust border color as needed */
+  border-radius: 2px;
+  margin: 0.625rem auto;
+  transition: all 250ms;
+
+  @media (min-width: 768px) {
+    width: clamp(120px, 35vw, 420px);
+  }
+
+  &:focus {
+    outline: none;
+    border-top-color: rgba(0, 0, 0, 0.1);
+  }
+
+  &:focus + .formLabel,
+  &:not(:placeholder-shown) + .formLabel {
+    transform: translateY(-4.5rem) scale(1);
+    color: #303030; /* Adjust label color as needed */
+  }
+
+  &::placeholder {
+    display: none;
+    color: transparent;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  &:not(:placeholder-shown) {
+    border-top-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.formLabel {
+  font-size: 1rem;
+  color: #909090; /* Adjust label color as needed */
+  display: block;
+  transform: translate(1.25rem, -2.5rem);
+  transform-origin: 0 0;
+  transition: all 500ms;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--c-text-primary);
+  background-color: var(--c-background-primary);
+  line-height: 1.5;
+}
+
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+
+.modal {
+  width: 90%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 15px rgba(#000, 0.2);
+}
+
+.modalHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.5rem 1.5rem 1rem;
+}
+
+.logoCircle {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--c-action-primary-accent);
+  svg {
+    max-width: 1.5rem;
+  }
+}
+
+.btnClose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: transparent;
+  &:hover,
+  &:focus {
+    background-color: var(--c-action-primary-accent);
+  }
+}
+
+.modalBody {
+  padding: 1rem 1.5rem;
+}
+
+.modalTitle {
+  font-weight: 700;
+}
+
+.modalDescription {
+  color: var(--c-text-secondary);
+}
+
+.uploadArea {
+  margin-top: 1.25rem;
+  border: none;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23ccc' stroke-width='3' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  background-color: transparent;
+  padding: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &:hover,
+  &:focus {
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%232e44ff' stroke-width='3' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  }
+}
+
+.uploadAreaIcon {
+  display: block;
+  width: 2.25rem;
+  height: 2.25rem;
+  svg {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+.uploadAreaTitle {
+  margin-top: 1rem;
+  display: block;
+  font-weight: 700;
+  color: var(--c-text-primary);
+}
+
+.uploadAreaDescription {
+  display: block;
+  color: var(--c-text-secondary);
+  strong {
+    color: var(--c-action-primary);
+    font-weight: 700;
+  }
+}
+
+.modalFooter {
+  padding: 1rem 1.5rem 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  [class*="btn-"] {
+    margin-left: 0.75rem;
+  }
+}
+
+.btnSecondary,
+.btnPrimary {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border: 2px solid var(--c-action-secondary);
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.btnPrimary {
+  color: #fff;
+  background-color: var(--c-action-primary);
+  border-color: var(--c-action-primary);
+}
