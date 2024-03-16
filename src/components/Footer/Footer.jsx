@@ -32,8 +32,8 @@ function Footer() {
                         Investment Scheme
                         </p>
 
-                        <p className={styles.text} style={{ flex: '1' }}>
-                        ...
+                        <p className={styles.text} style={{ flex: '1', fontSize: '20px' }}>
+                        Insta: DebtFreeSail
                         </p>
                         
                     </div>

@@ -6,7 +6,7 @@ function Plans() {
         <center><div className='container'>
           <div className="card-container"> 
             <div className="card">
-                <a href="customizedDebt">
+                <a href="/application-form">
                 <div className="card--display">
                     <img className='logo' src="../../../assets/logoDebt.jpg" alt="LogoOne" style={{width:'180px', height:'150px'}}/>
                     <h2>Customized Debt Management Plan</h2>
@@ -27,7 +27,7 @@ function Plans() {
 
           <div className="card-container"> 
             <div className="card">
-                <a href="financialWellness">
+                <a href="/application-form">
                 <div className="card--display">
                     <img className='logo' src="../../../assets/logoFinancial.jpg" alt="LogoTwo" style={{width:'185px'}}/>
                     <h2>Comprehensive Financial Wellness Plan</h2>
@@ -48,7 +48,7 @@ function Plans() {
 
           <div className="card-container"> 
             <div className="card">
-                <a href="emergencyRelief">
+                <a href="/application-form">
                 <div className="card--display">
                     <img className='logo' src="../../../assets/logoEmergency.jpg" alt="LogoThree" />
                     <h2>Emergency Relief Consolidation Plan</h2>
@@ -68,7 +68,7 @@ function Plans() {
           
           <div className="card-container"> 
             <div className="card">
-                <a href="debtReduction">
+                <a href="/application-form">
                 <div className="card--display">
                     <img className='logo' src="../../../assets/logoReduction.jpg" alt="LogoFour" />
                     <h2>Gradual Debt Reduction Plan</h2>

@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../../components/Navbar/Navbar';
+import Form from '../../components/ApplicationForm/Form';
+import Footer from '../../components/Footer/Footer';
 
 const ApplicationForm = () => {
   return (
-    <div>ApplicationForm</div>
+    <>
+    <Navbar />
+    <br />
+    <Form />
+    <Footer />
+    </>
   )
 }
 
-export default ApplicationForm
+export default ApplicationForm;
