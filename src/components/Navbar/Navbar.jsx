@@ -1,35 +1,40 @@
 import React from 'react';
-import logoImage from '../../../assets/images.png';
-import styles from './Navbar.module.css';
+import './Navbar.css';
 
 function Navbar() {
-    const Menus = ["Debt Solution", "Investment Scheme", "Financial Education", "Credit Counsellor"];
-
     return (
-        <div className={styles.content}>
-            <div className={styles.inLine}>
-                <div style={{ display: 'flex', alignItems: 'center' }}>
-                    <img src={logoImage} alt="Profile Picture" className={styles.roundImage} />
-                    <a className={styles.title} href="/#" style={{ fontSize: '30px', fontWeight: '300',  textDecoration: 'none', marginTop: '-8px'}}>Debt Free Sail</a>
+        <nav>
+            <div className="wrapper">
+                <div className="logo">
+                    <a href="/#">Debt Free Sail</a>
                 </div>
-
-                <div>
-                    <a href="/home" className={styles.element}>Home</a>
-                    <a href="/about" className={styles.element}>About Us</a>
-                    <div className={styles.dropdown}>
-                        <a href="/#" className={styles.element}>What We Offer</a>
-                        <div className={styles.dropdownContent}>
-                            {Menus.map((menu, index) => (
-                                <a key={index} href={`/${menu.toLowerCase().replace(' ', '-')}`} className={styles.dropdownItem}>{menu}</a>
-                            ))}
-                        </div>
-                    </div>
-                    <a href="/#" className={styles.element}>Contact Us</a>
-                </div>
+                <input type="radio" name="slider" id="menu-btn" />
+                <input type="radio" name="slider" id="close-btn" />
+                <ul className="nav-links">
+                    <label htmlFor="close-btn" className="btn close-btn">
+                        <i className="fas fa-times"></i>
+                    </label>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li>
+                        <a className="desktop-item">What We Offer</a>
+                        <input type="checkbox" id="showDrop" />
+                        <label htmlFor="showDrop" className="mobile-item">Dropdown Menu</label>
+                        <ul className="drop-menu">
+                            <li><a href="/debt-consolidation" style={{fontSize:'17px'}}>Debt Consolidation</a></li>
+                            <li><a href="/investment-scheme" style={{fontSize:'17px'}}>Investment Scheme</a></li>
+                            <li><a href="/financial-education" style={{fontSize:'17px'}}>Financial Education</a></li>
+                            <li><a href="/credit-counsellor" style={{fontSize:'17px'}}>Credit Counsellor</a></li>
+                        </ul>
+                    </li>
+                <li><a href="/#">Contact Us</a></li>
+                </ul>
+                <label for="menu-btn" class="btn menu-btn">
+                    <i className="fas fa-bars"></i>
+                </label>
             </div>
-        </div>
+        </nav>
     );
 }
 
 export default Navbar;
-

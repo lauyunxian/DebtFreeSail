@@ -8,6 +8,7 @@ const DebtConsolidation = () => {
   return (
     <>
     <Navbar />
+    <br />
     <DebtCons />
     <Form />
     <Footer />

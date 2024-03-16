@@ -4,14 +4,14 @@ import './Plans.css';
 function Plans() {
     return (
         <center><div className='container'>
-          <div class="card-container"> 
-            <div class="card">
+          <div className="card-container"> 
+            <div className="card">
                 <a href="customizedDebt">
-                <div class="card--display">
+                <div className="card--display">
                     <img className='logo' src="../../../assets/logoDebt.jpg" alt="LogoOne" style={{width:'180px', height:'150px'}}/>
                     <h2>Customized Debt Management Plan</h2>
                 </div>
-                <div class="card--hover">
+                <div className="card--hover">
                     <ul>
                         <li>Personalized debt assessment</li>
                         <li>Tailored debt consolidation plan based on customer's goal, budget & debt profile</li>
@@ -21,18 +21,18 @@ function Plans() {
                     </ul>
                 </div>
                 </a>
-                <div class="card--border"></div>
+                <div className="card--border"></div>
             </div>
           </div>
 
-          <div class="card-container"> 
-            <div class="card">
+          <div className="card-container"> 
+            <div className="card">
                 <a href="financialWellness">
-                <div class="card--display">
+                <div className="card--display">
                     <img className='logo' src="../../../assets/logoFinancial.jpg" alt="LogoTwo" style={{width:'185px'}}/>
                     <h2>Comprehensive Financial Wellness Plan</h2>
                 </div>
-                <div class="card--hover">
+                <div className="card--hover">
                     <ul>
                         <li>Personalized debt assessment</li>
                         <li>Tailored debt consolidation plan based on customer's goal, budget & debt profile</li>
@@ -42,18 +42,18 @@ function Plans() {
                     </ul>
                 </div>
                 </a>
-                <div class="card--border"></div>
+                <div className="card--border"></div>
             </div>
           </div>
 
-          <div class="card-container"> 
-            <div class="card">
+          <div className="card-container"> 
+            <div className="card">
                 <a href="emergencyRelief">
-                <div class="card--display">
+                <div className="card--display">
                     <img className='logo' src="../../../assets/logoEmergency.jpg" alt="LogoThree" />
                     <h2>Emergency Relief Consolidation Plan</h2>
                 </div>
-                <div class="card--hover">
+                <div className="card--hover">
                     <ul>
                         <li>Job loss/ medical expenses</li>
                         <li>Temporary Financial Seatbacks</li>
@@ -62,17 +62,17 @@ function Plans() {
                     </ul>
                 </div>
                 </a>
-                <div class="card--border"></div>
+                <div className="card--border"></div>
             </div>
           </div>
           
-          <div class="card-container"> 
-            <div class="card">
+          <div className="card-container"> 
+            <div className="card">
                 <a href="debtReduction">
-                <div class="card--display">
+                <div className="card--display">
                     <img className='logo' src="../../../assets/logoReduction.jpg" alt="LogoFour" />
                     <h2>Gradual Debt Reduction Plan</h2>
-                </div><div class="card--hover">
+                </div><div className="card--hover">
                     <ul>
                         <li>Gradual debt reduction by customized repayment plan with customer budget</li>
                         <li>Debt consolidation focusing on long-term debt and interest reduction</li>
@@ -82,7 +82,7 @@ function Plans() {
                     </ul>
                 </div>
                 </a>
-                <div class="card--border"></div>
+                <div className="card--border"></div>
             </div>
           </div>
         </div></center>

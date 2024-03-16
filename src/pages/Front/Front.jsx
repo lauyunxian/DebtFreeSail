@@ -6,6 +6,8 @@ const Front = () => {
   return (
     <>
     <Navbar />
+    <br />
+    <br />
     <Hero />
     </>
   )

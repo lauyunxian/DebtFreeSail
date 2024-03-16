@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './DebtCons.module.css';
 
-import Statistic from './Statistic';
 import Plans from './Plans';
 import InterestCalculator from './Calculator';
 
@@ -24,15 +23,13 @@ function DebtCons() {
                 </p>
             </div>
 
-            {/* <Statistic /> */}
-
             <h1 className={styles.title} style={{fontFamily:'fantasy', fontSize:'30px', textAlign:'center', paddingBottom:'30px'}}>Key Benefits</h1>
             <center><div className={styles.container1}>
                 <div className={styles.imageTextWrapper}>
                     <div className={styles.imageTextItem}>
                         <img src={pic} alt="Image 1" className={styles.roundImage} />
                         <div className={styles.textContainer}>
-                            <p style={{color:'black'}}>9% interest/ annum</p>
+                            <p style={{color:'black'}}>9% interest / annum</p>
                         </div>
                     </div>
                     <div className={styles.imageTextItem}>
@@ -156,7 +153,7 @@ function DebtCons() {
             <br />
 
             <h1 className={styles.title} style={{fontFamily:'fantasy', textAlign:'center', paddingTop:'0px'}}>Calculator & Result</h1>
-            <p style={{textAlign:'center', color:'white', paddingBottom:'30px'}}>This is solely for calculation purpose</p>
+            <p style={{textAlign:'center', color:'white', paddingBottom:'30px'}}>Count your debt repayment by entering the amount and tenure</p>
 
             <InterestCalculator />
 

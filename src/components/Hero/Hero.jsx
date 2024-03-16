@@ -4,7 +4,7 @@ import styles from './Hero.module.css'
 
 const Hero = () => {
     return (
-        <section className={styles.container}>
+        <div className={styles.container}>
             <div className={styles.textContent}>
                 <div className={styles.welcomeToComp}>
                     <h1 className={styles.textWelcomeTo}><span className={styles.textWelcome}>Welcome</span> to</h1>
@@ -33,8 +33,8 @@ const Hero = () => {
             <div className={styles.media}>
                 <img src={squarePic} alt="video here" />
             </div>
-        </section>
+        </div>
     )
 }
 
-export default Hero
+export default Hero;
