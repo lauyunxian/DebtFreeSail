@@ -9,9 +9,9 @@ import chart from '../../../assets/chart.png';
 function InvestmentSch() {
   return (
     <div className="InvestmentSch">
-        <center><h1 style={{ paddingTop:'70px'}}>Invest in Our Debt Consolidation Investment Scheme</h1></center>
-        <center><h3>Secure Returns and Make a Positive Impact</h3></center>
-        <center><h2 style={{color:'white'}}>6% return / annum</h2></center>
+        <center><h1 style={{ paddingTop:'90px', fontFamily:'Times New Romans'}}>Invest in Our Debt Consolidation Investment Scheme</h1></center>
+        <center><h3 style={{fontFamily:'Times New Romans'}}>Secure Returns and Make a Positive Impact</h3></center>
+        <center><h2 style={{color:'white', fontFamily:'Times New Romans'}}>6% return / annum</h2></center>
 
         <br />
         <a href="/#" className="button">Click here to get started</a>
