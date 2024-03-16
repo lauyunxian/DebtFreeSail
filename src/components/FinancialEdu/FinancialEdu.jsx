@@ -11,7 +11,7 @@ function FinancialEdu() {
             <h1 className='title' style={{fontFamily:'fantasy', fontSize:'30px', textAlign:'center'}}>Core Topics</h1>
             <center><div className='container'>
             <div className="card-container"> 
-                <a href="/#">
+                <a href="/financial-education/budget">
                 <div className="card--display">
                     <img className='logo' src="../../../assets/logoBudget.jpg" alt="LogoOne" style={{width:'180px', height:'150px'}}/>
                     <h2>Budgeting</h2>
