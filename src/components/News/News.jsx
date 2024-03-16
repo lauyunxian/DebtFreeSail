@@ -22,7 +22,7 @@ function News() {
           <div className={styles.cardInfo}>
             <span className={styles.cardCategory}>MooMoo Technologies</span>
             <h3 className={styles.cardTitle}>Investing For Beginners</h3>
-            <span className={styles.cardBy}>by <a href="#" className={styles.cardAuthor} title="author">Celeste Mills</a></span>
+            <span className={styles.cardBy}>by <a className={styles.cardAuthor} title="author">Celeste Mills</a></span>
           </div>
         </article>
 
@@ -42,7 +42,7 @@ function News() {
           <div className={styles.cardInfo}>
             <span className={styles.cardCategory}>Trading Economics</span>
             <h3 className={styles.cardTitle}>Malaysia Household Debt To GDP</h3>
-            <span className={styles.cardBy}>by <a href="#" className={styles.cardAuthor} title="author">John Doe</a></span>
+            <span className={styles.cardBy}>by <a className={styles.cardAuthor} title="author">John Doe</a></span>
           </div>
         </article>
 
@@ -62,7 +62,7 @@ function News() {
           <div className={styles.cardInfo}>
             <span className={styles.cardCategory}>Investopedia</span>
             <h3 className={styles.cardTitle}>Will Your Retirement Income Be Enough?</h3>
-            <span className={styles.cardBy}>by <a href="#" className={styles.cardAuthor} title="author">Jean Folger</a></span>
+            <span className={styles.cardBy}>by <a className={styles.cardAuthor} title="author">Jean Folger</a></span>
           </div>
         </article>
       </section>
