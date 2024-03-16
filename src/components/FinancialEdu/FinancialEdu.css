@@ -72,5 +72,19 @@
     z-index: -1;
 }
   
+.textContainer {
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
 
-  
+.innerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
