@@ -1,3 +1,12 @@
+:root {
+  --c-action-primary: #2e44ff;
+  --c-action-primary-accent: #e9e5ff;
+  --c-action-secondary: #e5e5e5;
+  --c-text-primary: #0d0f21;
+  --c-text-secondary: #6a6b76;
+  --c-background-primary: #d0d1de;
+}
+
 .container {
   width: 100%;
   max-width: 768px;
@@ -232,8 +241,16 @@ textarea {
   background-color: transparent;
 }
 
+.btnSecondary{
+  margin-right: 5px;
+}
+
 .btnPrimary {
   color: #fff;
   background-color: var(--c-action-primary);
   border-color: var(--c-action-primary);
+}
+
+.btnPrimary:hover, .btnSecondary:hover{
+  cursor: pointer;
 }

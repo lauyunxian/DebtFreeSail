@@ -22,8 +22,8 @@ const Form = () => {
                         <input type="email" placeholder="Email" className={styles.formInput} id="email" />
                         <label htmlFor="email" className={styles.formLabel}>Email</label>
 
-                        <input type="text" placeholder="Subject" className={styles.formInput} id="subject" />
-                        <label htmlFor="subject" className={styles.formLabel}>Subject</label>
+                        <input type="text" placeholder="Plan" className={styles.formInput} id="plan" />
+                        <label htmlFor="plan" className={styles.formLabel}>Plan</label>
                     </form>
                 </div>
 

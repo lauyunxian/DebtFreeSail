@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import DebtCons from '../../components/DebtCons/DebtCons'
 import Footer from '../../components/Footer/Footer'
-import Form from '../../components/ApplicationForm/Form'
 
 const DebtConsolidation = () => {
   return (
@@ -10,7 +9,6 @@ const DebtConsolidation = () => {
     <Navbar />
     <br />
     <DebtCons />
-    <Form />
     <Footer />
     </>
   )
