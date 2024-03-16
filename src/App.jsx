@@ -4,6 +4,7 @@ import Front from './pages/Front/Front'
 import Home from './pages/Home/Home'
 import AboutUs from './pages/AboutUs/AboutUs'
 import DebtConsolidation from './pages/DebtConsolidation/DebtConsolidation'
+import InvestmentScheme from './pages/InvestmentScheme/InvestmentScheme'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
             <Route path='/home' element={<Home />} />
             <Route path='/about' element={<AboutUs />} />
             <Route path='/debt-consolidation' element={<DebtConsolidation />} />
+            <Route path='/investment-scheme' element={<InvestmentScheme />} />
           </Routes>
         </BrowserRouter>
       </div>

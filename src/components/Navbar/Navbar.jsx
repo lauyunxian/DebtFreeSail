@@ -21,10 +21,10 @@ function Navbar() {
                         <input type="checkbox" id="showDrop" />
                         <label htmlFor="showDrop" className="mobile-item">Dropdown Menu</label>
                         <ul className="drop-menu">
-                            <li><a href="/debt-consolidation">Debt Consolidation</a></li>
-                            <li><a href="/investment-scheme">Investment Scheme</a></li>
-                            <li><a href="/financial-education">Financial Education</a></li>
-                            <li><a href="/credit-counsellor">Credit Counsellor</a></li>
+                            <li><a href="/debt-consolidation" style={{fontSize:'17px'}}>Debt Consolidation</a></li>
+                            <li><a href="/investment-scheme" style={{fontSize:'17px'}}>Investment Scheme</a></li>
+                            <li><a href="/financial-education" style={{fontSize:'17px'}}>Financial Education</a></li>
+                            <li><a href="/credit-counsellor" style={{fontSize:'17px'}}>Credit Counsellor</a></li>
                         </ul>
                     </li>
                 <li><a href="/#">Contact Us</a></li>

@@ -60,7 +60,19 @@ function InterestCalculator() {
                     <p style={{ paddingBottom:'10px', color:'black', fontSize:'18px'}}>RM {repaymentPerMonth.toFixed(2)}</p>
                 </div>
 
-                <button onClick={calculateInterest} style={{ paddingBottom:'10px', color:'black', fontSize:'18px'}}>Calculate</button>
+                <button onClick={calculateInterest} style={{ 
+                    padding: '10px 20px', 
+                    color: 'white', 
+                    fontSize: '18px',
+                    backgroundColor: '#00C2FF',
+                    border: 'none',
+                    borderRadius: '5px',
+                    cursor: 'pointer',
+                    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
+                    transition: 'background-color 0.3s ease-in-out',
+                }}>
+                Calculate
+                </button>
             </div>
         </center>
     );

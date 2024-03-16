@@ -29,7 +29,7 @@ function DebtCons() {
                     <div className={styles.imageTextItem}>
                         <img src={pic} alt="Image 1" className={styles.roundImage} />
                         <div className={styles.textContainer}>
-                            <p style={{color:'black'}}>9% interest/ annum</p>
+                            <p style={{color:'black'}}>9% interest / annum</p>
                         </div>
                     </div>
                     <div className={styles.imageTextItem}>
