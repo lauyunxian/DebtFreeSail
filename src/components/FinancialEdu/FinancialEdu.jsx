@@ -47,26 +47,26 @@ function FinancialEdu() {
             <h1 className='title' style={{fontFamily:'fantasy', fontSize:'30px', textAlign:'center'}}>Videos For You</h1>
             <center><div className='container'>
             <div className="card-container"> 
-                <a href="customizedDebt">
+                <a href="https://youtu.be/sVKQn2I4HDM?si=UOGj9oOk2iotTQWW">
                 <div className="card--display">
                     <img className='logo' src="../../../assets/logoBudget.jpg" alt="LogoOne" style={{width:'180px', height:'150px'}}/>
-                    <h2>Budgeting</h2>
+                    <h2>Budgeting Basic</h2>
                 </div>
                 </a>
             </div>
             <div className="card-container"> 
-                <a href="financialWellness">
+                <a href="https://youtu.be/cYGiipJOiLg?si=yip8aLZhFZ_TwQ_C">
                 <div className="card--display">
                     <img className='logo' src="../../../assets/logoInvestment.jpg" alt="LogoTwo" style={{width:'185px'}}/>
-                    <h2>Saving and Investment</h2>
+                    <h2>How to Make A Budget</h2>
                 </div>
                 </a>
             </div>
             <div className="card-container"> 
-                <a href="emergencyRelief">
+                <a href="https://youtu.be/dwIGfhhgKOc?si=Np0zaiOvHA20XaTx">
                 <div className="card--display">
                     <img className='logo' src="../../../assets/logoCredit.png" alt="LogoThree" style={{width:'128px'}}/>
-                    <h2>Credit Management</h2>
+                    <h2>Credit Scores and Credit Reports</h2>
                 </div>
                 </a>
             </div>

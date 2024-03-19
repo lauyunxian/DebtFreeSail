@@ -110,34 +110,6 @@ body {
   color: var(--white);
 }
 
-.socials > div {
-  margin-bottom: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.socials a {
-  padding: 2px 7px;
-  font-size: 1.25rem;
-  color: var(--text-dark);
-  background-color: var(--white);
-  border-radius: 100%;
-  transition: 0.3s;
-}
-
-.socials a:hover {
-  color: var(--white);
-  background-color: var(--primary-color);
-}
-
-.socials span {
-  font-size: 1.1rem;
-  color: var(--white);
-  cursor: pointer;
-}
-
 @media (width > 768px) {
   .container__grid {
     padding-top: 2rem;
@@ -157,7 +129,4 @@ body {
     margin-inline: unset;
   }
 
-  .socials > div {
-    justify-content: flex-start;
-  }
 }

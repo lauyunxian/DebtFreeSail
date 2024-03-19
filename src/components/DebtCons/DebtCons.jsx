@@ -27,25 +27,25 @@ function DebtCons() {
             <center><div className={styles.container1}>
                 <div className={styles.imageTextWrapper}>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 1" className={styles.roundImage} />
+                        <img src={pic} alt="Image 1" className={styles.roundImage} style={{marginLeft:'50px'}}/>
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>9% interest / annum</p>
                         </div>
                     </div>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 2" className={styles.roundImage} />
+                        <img src={pic} alt="Image 2" className={styles.roundImage} style={{marginLeft:'50px'}} />
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>Simplified payment</p>
                         </div>
                     </div>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 3" className={styles.roundImage} />
+                        <img src={pic} alt="Image 3" className={styles.roundImage} style={{marginLeft:'50px'}}/>
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>Save extra every month</p>
                         </div>
                     </div>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 4" className={styles.roundImage} />
+                        <img src={pic} alt="Image 4" className={styles.roundImage} style={{marginLeft:'50px'}}/>
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>Flexible repayment option</p>
                         </div>
@@ -57,19 +57,19 @@ function DebtCons() {
             <center><div className={styles.container2}>
                 <div className={styles.imageTextWrapper}>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 5" className={styles.roundImage} />
+                        <img src={pic} alt="Image 5" className={styles.roundImage} style={{marginLeft:'70px'}}/>
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>First priority for our investment opportunity</p>
                         </div>
                     </div>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 6" className={styles.roundImage} />
+                        <img src={pic} alt="Image 6" className={styles.roundImage} style={{marginLeft:'90px'}}/>
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>10% rebate on your 11th month installment per annum</p>
                         </div>
                     </div>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 7" className={styles.roundImage} />
+                        <img src={pic} alt="Image 7" className={styles.roundImage} style={{marginLeft:'65px'}}/>
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>Potential for saving money in a long term</p>
                         </div>
@@ -86,7 +86,7 @@ function DebtCons() {
             <center><div className={styles.container1}>
                 <div className={styles.imageTextItem}>
                     <h3 style={{color:'white', paddingBottom:'20px'}}>Debt Holder</h3>
-                    <img src={humanCartoon} alt="Human Cartoon 1" style={{height:'280px'}}/>
+                    <img src={humanCartoon} alt="Human Cartoon 1" style={{height:'228px', width:'220px', position:'relative', paddingLeft:'95px'}}/>
                     <div className={styles.textContainer} style={{width:'300px', height:'200px'}}>
                         <ul style={{listStyleType:'none', paddingRight:'40px'}}>
                             <li style={{color:'black', textAlign:'left', paddingBottom: '20px'}}>Name: Steve</li>
@@ -98,7 +98,7 @@ function DebtCons() {
                 <img src={arrow} alt="Arrow" style={{height:'100px'}}/>
                 <div className={styles.imageTextItem}>
                     <h3 style={{color:'white', paddingBottom:'20px'}}>Debt Free Sailor</h3>
-                    <img src={humanCartoon} alt="Human Cartoon 2" style={{height:'280px'}}/>
+                    <img src={humanCartoon} alt="Human Cartoon 2" style={{height:'240px', width:'248px', position:'relative', paddingLeft:'120px'}}/>
                     <div className={styles.textContainer} style={{width:'350px', height:'200px'}}>
                         <ul style={{listStyleType:'none', paddingRight:'40px'}}>
                             <li style={{color:'black', textAlign:'left', paddingBottom: '8px'}}>Interest Rate: 9%</li>

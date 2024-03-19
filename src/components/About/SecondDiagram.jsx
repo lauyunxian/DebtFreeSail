@@ -16,7 +16,7 @@ function SecondDiagram() {
             </div>
 
             <div className={styles.point} style={{ top: '60%' }}>
-                <div className={styles.diagramContainer} style={{ top: 'calc(51% - 60px)', left: '350%', transform: 'translateX(-1%)'}}>
+                <div className={styles.diagramContainer} style={{ top: 'calc(51% - 60px)', left: '350%', transform: 'translateX(-1%)', height: '150px'}}>
                     <h2 className={styles.containerTitle} style={{ padding: '13px 0 7px 0' }}>Innovation <br /> </h2>
                     <p className={styles.containerText}>
                         We lead the debt settlement industry with cutting-edge technology and data analytics.

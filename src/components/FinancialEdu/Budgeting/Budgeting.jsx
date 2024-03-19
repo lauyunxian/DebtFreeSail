@@ -86,7 +86,7 @@ function Budgeting() {
         <div className={styles.flowDiagram}>
             <div className={styles.line}></div>
             <div className={styles.point} style={{ top: '10%' }}>
-                <div className={styles.diagramContainer} style={{ top: 'calc(12% - 60px)', right: '100%', transform: 'translateX(-5%)', height:'100px'}}>
+                <div className={styles.diagramContainer} style={{ top: 'calc(12% - 60px)', right: '100%', transform: 'translateX(-5%)', height:'110px'}}>
                     <h2 className={styles.containerTitle} style={{ padding: '20px 0 7px 0' }}>Track your spending <br /> </h2>
                     <p className={styles.containerText}>
                         Keep track of all your expenses for a month to understand where your money is going.
@@ -95,7 +95,7 @@ function Budgeting() {
             </div>
 
             <div className={styles.point} style={{ top: '30%' }}>
-                <div className={styles.diagramContainer} style={{ top: 'calc(51% - 60px)', left: '350%', transform: 'translateX(-1%)', height:'100px'}}>
+                <div className={styles.diagramContainer} style={{ top: 'calc(51% - 60px)', left: '350%', transform: 'translateX(-1%)', height:'105px'}}>
                     <h2 className={styles.containerTitle} style={{ padding: '13px 0 7px 0' }}>Set Realistic Goals<br /> </h2>
                     <p className={styles.containerText}>
                         Be realistic when setting your budgeting goals. Start small and gradually increase your savings targets.
@@ -104,7 +104,7 @@ function Budgeting() {
             </div>
             
             <div className={styles.point} style={{ top: '53%' }}>
-                <div className={styles.diagramContainer} style={{ top: 'calc(81% - 60px)', right: '100%', transform: 'translateX(-5%)', height:'100px'}}>
+                <div className={styles.diagramContainer} style={{ top: 'calc(81% - 60px)', right: '100%', transform: 'translateX(-5%)', height:'110px'}}>
                     <h2 className={styles.containerTitle} style={{ padding: '20px 0 7px 0' }}>Prioritize Expenses<br /> </h2>
                     <p className={styles.containerText}>
                         Differentiate between needs and wants. Prioritize essential expenses and cut back on discretionary
@@ -114,7 +114,7 @@ function Budgeting() {
             </div>  
 
             <div className={styles.point} style={{ top: '75%' }}>
-                <div className={styles.diagramContainer} style={{ top: 'calc(51% - 60px)', left: '350%', transform: 'translateX(-1%)', height:'100px'}}>
+                <div className={styles.diagramContainer} style={{ top: 'calc(51% - 60px)', left: '350%', transform: 'translateX(-1%)', height:'110px'}}>
                     <h2 className={styles.containerTitle} style={{ padding: '13px 0 7px 0' }}>Use Budgeting Tools<br /> </h2>
                     <p className={styles.containerText}>
                         Utilize budgeting apps, spreadsheets, or pen and paper to create and monitor your budget.
@@ -123,7 +123,7 @@ function Budgeting() {
             </div>  
 
             <div className={styles.point} style={{ top: '99%' }}>
-                <div className={styles.diagramContainer} style={{ top: 'calc(81% - 60px)', right: '100%', transform: 'translateX(-5%)', height:'120px'}}>
+                <div className={styles.diagramContainer} style={{ top: 'calc(81% - 60px)', right: '100%', transform: 'translateX(-5%)', height:'130px'}}>
                     <h2 className={styles.containerTitle} style={{ padding: '20px 0 7px 0' }}>Review and Adjust Regularly <br /> </h2>
                     <p className={styles.containerText}>
                         Regularly review your budget and make adjustments as needed. Life circumstances and financial goals may change 
