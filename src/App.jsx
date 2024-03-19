@@ -8,6 +8,7 @@ import InvestmentScheme from './pages/InvestmentScheme/InvestmentScheme'
 import FinancialEducation from './pages/FinancialEducation/FinancialEducation'
 import Budget from './pages/FinancialEducation/Budget/Budget'
 import ApplicationForm from './pages/ApplicationForm/ApplicationForm'
+import InvestmentForm from './pages/InvestForm/InvestForm'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/financial-education' element={<FinancialEducation />} />
             <Route path='/financial-education/budget' element={<Budget />} />
             <Route path='/application-form' element={<ApplicationForm />} />
+            <Route path='/investment-form' element={<InvestmentForm />} />
           </Routes>
         </BrowserRouter>
       </div>

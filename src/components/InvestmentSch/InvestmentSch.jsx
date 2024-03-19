@@ -14,7 +14,7 @@ function InvestmentSch() {
         <center><h2 style={{color:'white', fontFamily:'Times New Romans'}}>6% return / annum</h2></center>
 
         <br />
-        <a href="/#" className={styles.button}>Click here to get started</a>
+        <a href="/investment-form" className={styles.button}>Click here to get started</a>
 
         <div className={styles.title} style={{fontFamily:'fantasy', fontSize:'30px', textAlign:'center', paddingBottom:'30px'}}>How this works?</div>
         <center><div className={styles.container}>

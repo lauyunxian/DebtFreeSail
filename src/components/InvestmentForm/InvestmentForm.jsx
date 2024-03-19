@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './Form.module.css'
+import styles from './InvestmentForm.module.css'
 
-const Form = () => {
-    return (
-        <div>
+const InvestmentForm = () => {
+  return (
+    <div>
             <center>
                 <h1 style={{ fontFamily: 'fantasy' }}>Congratulations on your first step !!</h1>
                 <p style={{ fontSize: '25px', color: 'white', fontFamily: 'fantasy', paddingTop: '10px' }}>We are here to guide you</p>
@@ -21,9 +21,6 @@ const Form = () => {
 
                         <input type="email" placeholder="Email" className={styles.formInput} id="email" />
                         <label htmlFor="email" className={styles.formLabel}>Email</label>
-
-                        <input type="text" placeholder="Select your plan" className={styles.formInput} id="plan" />
-                        <label htmlFor="plan" className={styles.formLabel}>Select your plan</label>
                     </form>
                 </div>
 
@@ -67,7 +64,7 @@ const Form = () => {
                 </div>
             </center>
         </div>
-    )
+  )
 }
 
-export default Form
+export default InvestmentForm
