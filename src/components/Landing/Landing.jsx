@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Landing.module.css'; 
+import styles from './Landing.module.css';
 
 const Landing = () => {
   return (
@@ -13,14 +13,18 @@ const Landing = () => {
             <div className={styles.container__image}>
               <div></div>
             </div>
-            <div className={styles.container__content} style={{paddingLeft:'35px'}}>
+            <div className={styles.container__content} style={{ paddingLeft: '35px' }}>
               <h1>Set Sail Towards Debt Freedom</h1>
               <h2>Navigate Your Way to Financial Independence</h2>
               <p>
-                Our vision is to become the trusted partner in financial wellness, making financial freedom 
+                Our vision is to become the trusted partner in financial wellness, making financial freedom
                 attainable for all and our mission is to empower individuals to achieve financial freedom
                 through expert guidance and personalized solutions.
               </p>
+              <div className={styles.btns}>
+                <button className={styles.loginBtn} href="/#">Login</button>
+                <button className={styles.signupBtn} href="/#">Sign Up</button>
+              </div>
             </div>
           </div>
         </section>

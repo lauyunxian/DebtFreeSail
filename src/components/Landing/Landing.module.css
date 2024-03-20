@@ -128,5 +128,36 @@ body {
   .container__content :is(h2, p) {
     margin-inline: unset;
   }
+}
 
+.btns{
+  display: flex;
+  /* gap: 10px; */
+  justify-content: space-evenly;
+  margin-left: 5%;
+  margin-top: 25px;
+}
+
+.loginBtn, .signupBtn{
+  text-decoration: none;
+  border: 2px;
+  background-color: var(--login-signup-btn);
+  width: 181px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+  padding: 12px 36px;
+  border-radius: 40px;
+  color: var(--bg-color);
+  font-size: 20px;
+}
+
+.loginBtn:hover, .signupBtn:hover{
+  cursor: pointer;
+  background-color: var(--font-yellow);
+  color: #000;
+  box-shadow: 6px 6px 5px black;
+  transition: .6ms;
 }

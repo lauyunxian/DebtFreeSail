@@ -42,8 +42,8 @@ const InvestmentForm = () => {
                         </button>
                     </div>
                     <div className={styles.modalBody}>
-                        <h2 className={styles.modalTitle}>Upload a file</h2>
-                        <p className={styles.modalDescription}>Attach the file below</p>
+                        <h2 className={styles.modalTitle}>Upload your IC</h2>
+                        <p className={styles.modalDescription}>Attach your IC below</p>
                         <button className={styles.uploadArea}>
                             <span className={styles.uploadAreaIcon}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
