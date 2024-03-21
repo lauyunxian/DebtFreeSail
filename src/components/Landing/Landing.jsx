@@ -1,7 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './Landing.module.css';
 
 const Landing = () => {
+  const navigate = useNavigate();
+
+  // Funtion to handle login button
+  const handleLoginBtn = () => {
+    navigate('/login');
+  }
   return (
     <div>
       <body>
@@ -22,7 +29,7 @@ const Landing = () => {
                 through expert guidance and personalized solutions.
               </p>
               <div className={styles.btns}>
-                <button className={styles.loginBtn} href="/#">Login</button>
+                <button className={styles.loginBtn} onClick={handleLoginBtn}>Login</button>
                 <button className={styles.signupBtn} href="/#">Sign Up</button>
               </div>
             </div>

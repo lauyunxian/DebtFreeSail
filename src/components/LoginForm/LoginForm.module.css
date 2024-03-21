@@ -1,0 +1,70 @@
+body,
+label,
+input,
+button,
+a {
+  color: black;
+}
+
+.form {
+  border: 5px solid #f1f1f1;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+}
+
+.icon {
+  font-size: 110px;
+  display: flex;
+  justify-content: center;
+  color: #4286f4;
+}
+
+.container {
+  padding: 16px 0;
+  text-align: left;
+}
+
+.psw {
+  float: right;
+  padding-top: 0;
+  padding-right: 15px;
+}
+
+.formContainer {
+  text-align: center;
+  margin: 24px 50px 12px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 16px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4286f4;
+  color: white;
+  padding: 14px 0;
+  margin: 10px 0;
+  border: none;
+  cursor: grab;
+  width: 48%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 380px) {
+  .psw {
+    display: block;
+    float: none;
+  }
+}
