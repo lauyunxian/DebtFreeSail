@@ -9,6 +9,11 @@ const Landing = () => {
   const handleLoginBtn = () => {
     navigate('/login');
   }
+
+  // Function to handle signup button
+  const handleSignUpBtn = () => {
+    navigate('/signup');
+  }
   return (
     <div>
       <body>
@@ -30,7 +35,7 @@ const Landing = () => {
               </p>
               <div className={styles.btns}>
                 <button className={styles.loginBtn} onClick={handleLoginBtn}>Login</button>
-                <button className={styles.signupBtn} href="/#">Sign Up</button>
+                <button className={styles.signupBtn} onClick={handleSignUpBtn}>Sign Up</button>
               </div>
             </div>
           </div>

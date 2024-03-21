@@ -10,6 +10,7 @@ import Budget from './pages/FinancialEducation/Budget/Budget'
 import ApplicationForm from './pages/ApplicationForm/ApplicationForm'
 import InvestmentForm from './pages/InvestForm/InvestForm'
 import Login from './pages/Login/Login'
+import SignUp from './pages/SignUp/SignUp'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route index element={<Front />} />
             <Route path='/home' element={<Home />} />
             <Route path='/about' element={<AboutUs />} />
+            <Route path='/signup' element={<SignUp />} />
             <Route path='/login' element={<Login />} />
             <Route path='/debt-consolidation' element={<DebtConsolidation />} />
             <Route path='/investment-scheme' element={<InvestmentScheme />} />
