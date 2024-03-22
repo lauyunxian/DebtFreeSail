@@ -76,7 +76,8 @@ function DebtCons() {
                 </div>
             </div></center>
 
-            <h1 className={styles.title} style={{fontFamily:'fantasy', textAlign:'center', paddingBottom:'30px'}}>Find the perfect plan for you</h1>
+            <h1 className={styles.title} style={{fontFamily:'fantasy', textAlign:'center'}}>Find the perfect plan for you</h1>
+            <p style={{textAlign:'center', color:'white', paddingBottom:'20px'}}>Click to apply for the plan that suits your needs!</p>
             <Plans />
 
             <h1 className={styles.title} style={{fontFamily:'fantasy', textAlign:'center'}}>We settle your DEBTS !!</h1>

@@ -1,9 +1,19 @@
-import React from 'react'
-import SignUpForm from '../../components/SignUpForm/SignUpForm'
+import React from 'react';
+import Navbar from '../../components/Navbar/Navbar';
+import SignUpForm from '../../components/SignUpForm/SignUpForm';
 
 const SignUp = () => {
   return (
-    <SignUpForm />
+    <>
+      <Navbar />
+      <br />
+      <br />
+      <br />
+      <br />
+      <SignUpForm />
+      <br />
+      <br />
+    </>
   )
 }
 

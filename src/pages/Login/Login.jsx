@@ -5,7 +5,14 @@ import LoginForm from '../../components/LoginForm/LoginForm'
 const Login = () => {
   return (
     <>
+      <Navbar />
+      <br />
+      <br />
+      <br />
+      <br />
       <LoginForm />
+      <br />
+      <br />
     </>
   )
 }
