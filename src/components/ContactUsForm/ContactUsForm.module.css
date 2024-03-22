@@ -1,0 +1,95 @@
+.title {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contactWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 840px;
+}
+
+.formHorizontal {
+  /* width: 45%; */
+  max-width: 400px;
+  margin-right: 50px;
+}
+
+.directContactList {
+  width: 45%;
+}
+
+/* Form styles */
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.colSmall {
+  width: 100%;
+}
+
+.formControl {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sendBtn {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.altSendBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 34px;
+  transition: all .2s ease-in-out;
+}
+
+.sendText {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+.altSendBtn:hover{
+  transform: translate3d(0px, -25px, 0px);
+}
+
+/* Contact list styles */
+.contactList {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.contactText {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .contactWrapper {
+    flex-direction: column;
+  }
+
+  .formHorizontal,
+  .directContactList {
+    width: 100%;
+    margin-right: 0;
+  }
+}
