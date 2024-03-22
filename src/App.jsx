@@ -7,6 +7,7 @@ import AboutUs from './pages/AboutUs/AboutUs';
 import DebtConsolidation from './pages/DebtConsolidation/DebtConsolidation';
 import InvestmentScheme from './pages/InvestmentScheme/InvestmentScheme';
 import FinancialEducation from './pages/FinancialEducation/FinancialEducation';
+import CreditCounsellor from './pages/CreditCounsellor/CreditCounsellor';
 import Budget from './pages/FinancialEducation/Budget/Budget';
 import Investing from './pages/FinancialEducation/Investing/Investing';
 import CreditManagement from './pages/FinancialEducation/CreditManagement/CreditManagement';
@@ -35,6 +36,7 @@ function App() {
             <Route path='/financial-education/investing' element={<Investing />} />
             <Route path='/financial-education/creditManagement' element={<CreditManagement />} />
             <Route path='/financial-education/retirementPlan' element={<RetirementPlan />} />
+            <Route path='/credit-counsellor' element={<CreditCounsellor />} />
             <Route path='/application-form' element={<ApplicationForm />} />
             <Route path='/investment-form' element={<InvestmentForm />} />
             <Route path='/contact-us' element={<ContactUs />} />

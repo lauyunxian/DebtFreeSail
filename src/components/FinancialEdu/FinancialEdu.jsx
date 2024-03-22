@@ -133,7 +133,7 @@ function FinancialEdu() {
                 </article>
             </section>
         </div> 
-    )
-};
+    );
+}
 
 export default FinancialEdu;
