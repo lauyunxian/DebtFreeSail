@@ -144,11 +144,11 @@ function Credit() {
                     <a style={{background:'#ded9d6'}}>
                     <div className="card--display">
                         <img className='logo' src="https://media.istockphoto.com/id/1405977490/photo/the-words-debt-free-in-process-are-standing-next-to-the-loading-bar-ending-credit-payments.jpg?s=612x612&w=0&k=20&c=ScWbkfI2K8wljrEwGsvEsQUahHW1ENjjApKVXKCw7jk=" style={{width:'200px', marginTop:'60px'}}/>
-                        <h2>Seek Credit Counseling</h2>
+                        <h2>Seek Credit Counselling</h2>
                     </div>
                     <div className="card--hover" style={{height:'40px'}}>
                         <p style={{textAlign:'center', color:'black', paddingTop:'100px'}}>
-                            Credit counseling agencies can provide guidance on managing debt, creating a budget, 
+                            Credit counselling agencies can provide guidance on managing debt, creating a budget, 
                             and improving your financial situation.
                         </p>
                     </div>

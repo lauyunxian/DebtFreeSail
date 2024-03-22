@@ -4,7 +4,8 @@ import styles from './DebtCons.module.css';
 import Plans from './Plans';
 import InterestCalculator from './Calculator';
 
-import humanCartoon from '../../../assets/humanCartoon.png';
+import debtFreeSailer from '../../../assets/debtFreeSailor.png';
+import debtHolder from '../../../assets/debtHolder.png';
 import arrow from '../../../assets/arrow.png';
 
 function DebtCons() {
@@ -86,7 +87,7 @@ function DebtCons() {
             <center><div className={styles.container1}>
                 <div className={styles.imageTextItem}>
                     <h3 style={{color:'white', paddingBottom:'20px'}}>Debt Holder</h3>
-                    <img src={humanCartoon} alt="Human Cartoon 1" style={{height:'228px', width:'220px', position:'relative', paddingLeft:'95px'}}/>
+                    <img src={debtHolder} alt="Human Cartoon 1" style={{height:'228px', width:'220px', position:'relative', paddingLeft:'95px'}}/>
                     <div className={styles.textContainer} style={{width:'300px', height:'200px'}}>
                         <ul style={{listStyleType:'none', paddingRight:'40px'}}>
                             <li style={{color:'black', textAlign:'left', paddingBottom: '20px'}}>Name: Steve</li>
@@ -98,7 +99,7 @@ function DebtCons() {
                 <img src={arrow} alt="Arrow" style={{height:'100px'}}/>
                 <div className={styles.imageTextItem}>
                     <h3 style={{color:'white', paddingBottom:'20px'}}>Debt Free Sailor</h3>
-                    <img src={humanCartoon} alt="Human Cartoon 2" style={{height:'240px', width:'248px', position:'relative', paddingLeft:'120px'}}/>
+                    <img src={debtFreeSailer} alt="Human Cartoon 2" style={{height:'240px', width:'248px', position:'relative', paddingLeft:'120px'}}/>
                     <div className={styles.textContainer} style={{width:'350px', height:'200px'}}>
                         <ul style={{listStyleType:'none', paddingRight:'40px'}}>
                             <li style={{color:'black', textAlign:'left', paddingBottom: '8px'}}>Interest Rate: 9%</li>

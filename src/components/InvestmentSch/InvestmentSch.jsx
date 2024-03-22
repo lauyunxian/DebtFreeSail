@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from './InvestmentSch.module.css';
 
-import humanCartoon from '../../../assets/humanCartoon.png';
+import debtFreeSailor from '../../../assets/debtFreeSailor.png';
+import debtHolder from '../../../assets/debtHolder.png';
+import investor from '../../../assets/investor.png';
+
 import arrow from '../../../assets/arrow.png';
-import pic from '../../../assets/images.png';
 import chart from '../../../assets/chart.png';
 
 function InvestmentSch() {
@@ -20,7 +22,7 @@ function InvestmentSch() {
         <center><div className={styles.container}>
             <div className={styles.imageTextItem}>
                 <h3 style={{color:'white', paddingBottom:'20px'}}>Customer (Debtors)</h3>
-                <img src={humanCartoon} alt="Human Cartoon 1" style={{height:'180px', width:'180px', position:'relative', paddingLeft:'40px'}}/>
+                <img src={debtHolder} alt="Human Cartoon 1" style={{height:'180px', width:'180px', position:'relative', paddingLeft:'40px'}}/>
                 <div className={styles.textContainer} style={{width:'230px', height:'200px'}}>
                     <ul style={{listStyleType:'none', paddingRight:'40px'}}>
                         <li style={{color:'white', textAlign:'left', paddingBottom: '5px'}}>Submit Application</li>
@@ -32,7 +34,7 @@ function InvestmentSch() {
 
             <div className={styles.imageTextItem}>
                 <h3 style={{color:'white', paddingBottom:'20px'}}>Debt Free Sailor</h3>
-                <img src={humanCartoon} alt="Human Cartoon 2" style={{height:'180px', width:'180px', position:'relative', paddingLeft:'40px'}}/>
+                <img src={debtFreeSailor} alt="Human Cartoon 2" style={{height:'180px', width:'180px', position:'relative', paddingLeft:'40px'}}/>
                 <div className={styles.textContainer} style={{width:'250px', height:'200px'}}>
                     <ul style={{listStyleType:'none', paddingRight:'40px'}}>
                         <li style={{color:'white', textAlign:'left', paddingBottom: '5px'}}>Pre Qualification</li>
@@ -49,10 +51,10 @@ function InvestmentSch() {
 
             <div className={styles.imageTextItem}>
                 <h3 style={{color:'white', paddingBottom:'20px'}}>Investors</h3>
-                <img src={humanCartoon} alt="Human Cartoon 3" style={{height:'180px', width:'180px', position:'relative', paddingLeft:'40px'}}/>
+                <img src={investor} alt="Human Cartoon 3" style={{height:'180px', width:'180px', position:'relative', paddingLeft:'40px'}}/>
                 <div className={styles.textContainer} style={{width:'230px', height:'200px'}}>
                     <ul style={{listStyleType:'none', paddingRight:'40px'}}>
-                    <li style={{color:'white', textAlign:'left', paddingBottom: '8px'}}>Submit Application for Investment Quota</li>
+                    <li style={{color:'white', textAlign:'left', paddingBottom: '8px'}}>Submit application for Investment Quota</li>
                     </ul>
                 </div>
             </div>
@@ -61,7 +63,7 @@ function InvestmentSch() {
 
             <div className={styles.imageTextItem}>
                 <h3 style={{color:'white', paddingBottom:'20px'}}>Debt Free Sailor</h3>
-                <img src={humanCartoon} alt="Human Cartoon 4" style={{height:'180px', width:'180px', position:'relative', paddingLeft:'40px'}}/>
+                <img src={debtFreeSailor} alt="Human Cartoon 4" style={{height:'180px', width:'180px', position:'relative', paddingLeft:'40px'}}/>
                 <div className={styles.textContainer} style={{width:'230px', height:'200px'}}>
                     <ul style={{listStyleType:'none', paddingRight:'40px'}}>
                         <li style={{color:'white', textAlign:'left', paddingBottom: '8px'}}>Opens the quota for the investor</li>
