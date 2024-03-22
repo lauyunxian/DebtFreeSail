@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../../assets/images.png';
 import './Navbar.css';
 
 function Navbar() {
@@ -6,6 +7,7 @@ function Navbar() {
         <nav>
             <div className="wrapper">
                 <div className="logo">
+                    <img src = {image} alt="logo" style={{height:'65px'}}/>
                     <a href="/#">Debt Free Sail</a>
                 </div>
                 <input type="radio" name="slider" id="menu-btn" />

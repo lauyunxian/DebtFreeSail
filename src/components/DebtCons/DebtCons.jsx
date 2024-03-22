@@ -4,7 +4,6 @@ import styles from './DebtCons.module.css';
 import Plans from './Plans';
 import InterestCalculator from './Calculator';
 
-import pic from '../../../assets/images.png';
 import humanCartoon from '../../../assets/humanCartoon.png';
 import arrow from '../../../assets/arrow.png';
 
@@ -27,25 +26,25 @@ function DebtCons() {
             <center><div className={styles.container1}>
                 <div className={styles.imageTextWrapper}>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 1" className={styles.roundImage} style={{marginLeft:'50px'}}/>
+                        <img src="https://media.istockphoto.com/id/177516417/photo/percent-arrow-growth-sign.jpg?s=612x612&w=0&k=20&c=iDvpiQbe82H-fD7ORGVDjEyjwBvBaoKFtaCgO9OuM_M=" alt="Image 1" className={styles.roundImage} style={{marginLeft:'50px'}}/>
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>9% interest / annum</p>
                         </div>
                     </div>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 2" className={styles.roundImage} style={{marginLeft:'50px'}} />
+                        <img src="https://media.istockphoto.com/id/912149680/vector/simple-wallet-with-card-icon-single-color-design-element-isolated-on-white-business-finance.jpg?s=612x612&w=0&k=20&c=tNh3C2ajM78Xi06iJBGfN7MiTryeRZ7L_GUQWX5EINg=" alt="Image 2" className={styles.roundImage} style={{marginLeft:'50px'}} />
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>Simplified payment</p>
                         </div>
                     </div>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 3" className={styles.roundImage} style={{marginLeft:'50px'}}/>
+                        <img src="https://media.istockphoto.com/id/1302112710/vector/rewards-and-bonus-points-program-customer-earning-gifts-marketing-loyalty-system.jpg?s=612x612&w=0&k=20&c=5GMUtjgwUmU-Gjw3Ki75MXeM7aTjYL06xNZomXpflgw=" alt="Image 3" className={styles.roundImage} style={{marginLeft:'58px'}}/>
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>Save extra every month</p>
                         </div>
                     </div>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 4" className={styles.roundImage} style={{marginLeft:'50px'}}/>
+                        <img src="https://media.istockphoto.com/id/975132444/vector/flexibility-icon-vector-illustration.jpg?s=612x612&w=0&k=20&c=o-xEk8jNly3820xRICADpUOh0mFRWh8I-m6viwCJcEY=" alt="Image 4" className={styles.roundImage} style={{marginLeft:'66px'}}/>
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>Flexible repayment option</p>
                         </div>
@@ -57,19 +56,19 @@ function DebtCons() {
             <center><div className={styles.container2}>
                 <div className={styles.imageTextWrapper}>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 5" className={styles.roundImage} style={{marginLeft:'70px'}}/>
+                        <img src="https://media.istockphoto.com/id/827247322/vector/danger-sign-vector-icon-attention-caution-illustration-business-concept-simple-flat-pictogram.jpg?s=612x612&w=0&k=20&c=BvyScQEVAM94DrdKVybDKc_s0FBxgYbu-Iv6u7yddbs=" alt="Image 5" className={styles.roundImage} style={{marginLeft:'70px'}}/>
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>First priority for our investment opportunity</p>
                         </div>
                     </div>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 6" className={styles.roundImage} style={{marginLeft:'90px'}}/>
+                        <img src="https://media.istockphoto.com/id/1282812684/vector/cashback-icon-return-money-cash-back-rebate-hand-hold-coin-e-commerce-and-marketing-vector.jpg?s=612x612&w=0&k=20&c=k2sQm3ZZ1o9j-hy4b6bmuOTzlQbvq6P5Igvg9I_CG7A=" alt="Image 6" className={styles.roundImage} style={{marginLeft:'90px'}}/>
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>10% rebate on your 11th month installment per annum</p>
                         </div>
                     </div>
                     <div className={styles.imageTextItem}>
-                        <img src={pic} alt="Image 7" className={styles.roundImage} style={{marginLeft:'65px'}}/>
+                        <img src="https://media.istockphoto.com/id/1290807679/vector/invest-more-to-earn-more-fund-rising-and-long-term-investment-concept.jpg?s=612x612&w=0&k=20&c=EEZZJfQ8ojCQCUEIwsu4c1gY3zRB4GKHZOfcbk0TXgA=" alt="Image 7" className={styles.roundImage} style={{marginLeft:'65px'}}/>
                         <div className={styles.textContainer}>
                             <p style={{color:'black'}}>Potential for saving money in a long term</p>
                         </div>

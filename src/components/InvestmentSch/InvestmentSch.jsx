@@ -84,25 +84,25 @@ function InvestmentSch() {
         <center><div className={styles.container} style={{margin:'0 auto', paddingTop:'15px'}}>
             <div className={styles.imageTextWrapper}>
                 <div className={styles.imageTextItem}>
-                    <img src={pic} alt="Image 1" className={styles.roundImage} />
+                    <img src="https://media.istockphoto.com/id/177516417/photo/percent-arrow-growth-sign.jpg?s=612x612&w=0&k=20&c=iDvpiQbe82H-fD7ORGVDjEyjwBvBaoKFtaCgO9OuM_M=" alt="Image 1" className={styles.roundImage} />
                     <div className={styles.textContainer2}>
                         <p style={{color:'white'}}>6% interest / annum</p>
                     </div>
                 </div>
                 <div className={styles.imageTextItem}>
-                    <img src={pic} alt="Image 2" className={styles.roundImage} />
+                    <img src="https://media.istockphoto.com/id/1152863138/vector/tick-icon-vector-symbol-checkmark-isolated-on-white-background-checked-icon-or-correct.jpg?s=612x612&w=0&k=20&c=AudAYTu8rzM92lRktaI0ECJ0RiWrCgUeNEfywZm57SI=" alt="Image 2" className={styles.roundImage} />
                     <div className={styles.textContainer2}>
                         <p style={{color:'white'}}>Monitored by professionals</p>
                     </div>
                 </div>
                 <div className={styles.imageTextItem}>
-                    <img src={pic} alt="Image 3" className={styles.roundImage} />
+                    <img src="https://media.istockphoto.com/id/1357095325/vector/gauge-indicator-with-left-green-sector-vector-icon.jpg?s=612x612&w=0&k=20&c=Zeaiet6JOppsvhOuaLsyCsJDdneeQIoX1R3MOrSTkng=" alt="Image 3" className={styles.roundImage} />
                     <div className={styles.textContainer2}>
                         <p style={{color:'white'}}>Low risk investment</p>
                     </div>
                 </div>
                 <div className={styles.imageTextItem}>
-                    <img src={pic} alt="Image 4" className={styles.roundImage} />
+                    <img src="https://media.istockphoto.com/id/1285103851/vector/hand-drawn-doodle-folding-calendar-with-cartoon-art-style-vector-isolated.jpg?s=612x612&w=0&k=20&c=38hGkE4gAtLl-Uz3JD5TYPeln922BG5i4d_zQNqF41s=" alt="Image 4" className={styles.roundImage} />
                     <div className={styles.textContainer2}>
                         <p style={{color:'white'}}>Reserve slots for more investment opportunity</p>
                     </div>
@@ -117,19 +117,19 @@ function InvestmentSch() {
         <center><div className={styles.container} style={{margin:'0 auto', maxWidth:'60%', paddingTop:'15px'}}>
             <div className={styles.imageTextWrapper}>
                 <div className={styles.imageTextItem}>
-                    <img src={pic} alt="Image 1" className={styles.roundImage} style={{marginBottom:'0px'}}/>
+                    <img src="https://media.istockphoto.com/id/1508853400/vector/order-fulfillment-black-line-fill-vector-icon.jpg?s=612x612&w=0&k=20&c=f_3RpwawUJ4u8q_8-TygkvtirsduYYR54g1kiZF3kuE=" alt="Image 1" className={styles.roundImage} style={{marginBottom:'0px'}}/>
                      <div className={styles.textContainer2}>
                         <p style={{color:'white'}}>Steady demand</p>
                     </div>
                 </div>
                 <div className={styles.imageTextItem}>
-                    <img src={pic} alt="Image 2" className={styles.roundImage} style={{marginBottom:'0px'}}/>
+                    <img src="https://media.istockphoto.com/id/1147247355/vector/audit-services-financial-consulting-money-investment-strategy-idea-line-icon.jpg?s=612x612&w=0&k=20&c=ZDSTpp4xqPLNlANuihg-6zCmvqk9rhntBI2y7WEniLI=" alt="Image 2" className={styles.roundImage} style={{marginBottom:'0px'}}/>
                     <div className={styles.textContainer2}>
                         <p style={{color:'white'}}>Stable returns</p>
                     </div>
                 </div>
                 <div className={styles.imageTextItem}>
-                    <img src={pic} alt="Image 3" className={styles.roundImage} style={{marginBottom:'0px'}}/>
+                    <img src="https://media.istockphoto.com/id/1348120694/vector/lowering-sugar-intake-rgb-color-icon.jpg?s=612x612&w=0&k=20&c=6aYml9R8Xy_oXiy9t-AQXyfbRjXoEHz12UQ5vw9jDFg=" alt="Image 3" className={styles.roundImage} style={{marginBottom:'0px'}}/>
                     <div className={styles.textContainer2}>
                         <p style={{color:'white'}}>Lower risk profile</p>
                     </div>
@@ -140,19 +140,19 @@ function InvestmentSch() {
         <center><div className={styles.container} style={{margin:'0 auto', maxWidth:'60%', paddingTop:'30px'}}>
             <div className={styles.imageTextWrapper}>
                 <div className={styles.imageTextItem}>
-                    <img src={pic} alt="Image 1" className={styles.roundImage} style={{marginBottom:'0px'}}/>
+                    <img src="https://media.istockphoto.com/id/1342347228/vector/stylized-icon-design-with-4-hands-holding-together-thin-line-minimal-illustration-for.jpg?s=612x612&w=0&k=20&c=WH1mDPw0I2UCqEYrrBsbaUfiBA4OjTucYIj4QAW0x30=" alt="Image 1" className={styles.roundImage} style={{marginBottom:'0px'}}/>
                      <div className={styles.textContainer2}>
                         <p style={{color:'white'}}>Diversification</p>
                     </div>
                 </div>
                 <div className={styles.imageTextItem}>
-                    <img src={pic} alt="Image 2" className={styles.roundImage} style={{marginBottom:'0px'}}/>
+                    <img src="https://media.istockphoto.com/id/1169533234/vector/responsibility-line-icon.jpg?s=612x612&w=0&k=20&c=FgyheBPx5A2-khUBbj3OX1nCpMBl4TDBYsAJGSxKmHU=" alt="Image 2" className={styles.roundImage} style={{marginBottom:'0px'}}/>
                     <div className={styles.textContainer2}>
                         <p style={{color:'white'}}>Social impact</p>
                     </div>
                 </div>
                 <div className={styles.imageTextItem}>
-                    <img src={pic} alt="Image 3" className={styles.roundImage} style={{marginBottom:'0px'}}/>
+                    <img src="https://media.istockphoto.com/id/1183888242/vector/mission-champion-icon-in-flat-style-mountain-vector-illustration-on-white-isolated.jpg?s=612x612&w=0&k=20&c=2GvQqtOQnogdnh9wocsN7FSMcDfRcZiIC2r6_pZld7k=" alt="Image 3" className={styles.roundImage} style={{marginBottom:'0px'}}/>
                     <div className={styles.textContainer2}>
                         <p style={{color:'white'}}>Potential for growth</p>
                     </div>
