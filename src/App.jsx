@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './App.module.css';
 import Front from './pages/Front/Front';
 import Home from './pages/Home/Home';
@@ -17,6 +16,7 @@ import InvestmentForm from './pages/InvestForm/InvestForm';
 import Login from './pages/Login/Login';
 import SignUp from './pages/SignUp/SignUp';
 import ContactUs from './pages/ContactUs/ContactUs';
+import InvestmentPool from './pages/InvestmentPool/InvestmentPool';
 
 function App() {
 
@@ -40,6 +40,7 @@ function App() {
             <Route path='/application-form' element={<ApplicationForm />} />
             <Route path='/investment-form' element={<InvestmentForm />} />
             <Route path='/contact-us' element={<ContactUs />} />
+            <Route path='/investment-pool' element={<InvestmentPool />} />
           </Routes>
         </BrowserRouter>
       </div>
