@@ -27,9 +27,10 @@ function Navbar() {
                             <li><a href="/investment-scheme" style={{fontSize:'17px'}}>Investment Scheme</a></li>
                             <li><a href="/financial-education" style={{fontSize:'17px'}}>Financial Education</a></li>
                             <li><a href="/credit-counsellor" style={{fontSize:'17px'}}>Credit Counsellor</a></li>
+                            <li><a href="/investment-pool" style={{fontSize:'17px'}}>Investment Pool</a></li>
                         </ul>
                     </li>
-                <li><a href="/#">Contact Us</a></li>
+                <li><a href="/contact-us">Contact Us</a></li>
                 </ul>
                 <label for="menu-btn" class="btn menu-btn">
                     <i className="fas fa-bars"></i>
