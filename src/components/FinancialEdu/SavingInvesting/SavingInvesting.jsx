@@ -8,13 +8,13 @@ function SavingInvestment() {
         <h1 className='title' style={{fontFamily:'fantasy', fontSize:'30px', textAlign:'center', paddingTop:'80px'}}>Why Saving and Investing Matters?</h1>
         <center><div className='container'>
             <div className='innerContainer'>
-                <div className='textContainer' style={{width:'420px'}}>
+                <div className='textContainer' style={{width:'400px'}}>
                     <p style={{color:'black'}}>Buiding Wealth</p>
                 </div>
-                <div className='textContainer' style={{width:'420px'}}>
+                <div className='textContainer' style={{width:'400px'}}>
                     <p style={{color:'black'}}>Achieving financial goals</p>
                 </div>
-                <div className='textContainer' style={{width:'420px'}}>
+                <div className='textContainer' style={{width:'400px'}}>
                     <p style={{color:'black'}}>Protecting against uncertainity</p>
                 </div>
             </div>

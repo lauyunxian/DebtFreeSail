@@ -8,13 +8,13 @@ function Retirement() {
         <h1 className='title' style={{fontFamily:'fantasy', fontSize:'30px', textAlign:'center', paddingTop:'80px'}}>Why Retirement Planning Matters?</h1>
         <center><div className='container'>
             <div className='innerContainer'>
-                <div className='textContainer' style={{width:'420px'}}>
+                <div className='textContainer' style={{width:'400px'}}>
                     <p style={{color:'black'}}>Financial Independence</p>
                 </div>
-                <div className='textContainer' style={{width:'420px'}}>
+                <div className='textContainer' style={{width:'400px'}}>
                     <p style={{color:'black'}}>Peace of Mind</p>
                 </div>
-                <div className='textContainer' style={{width:'420px'}}>
+                <div className='textContainer' style={{width:'400px'}}>
                     <p style={{color:'black'}}>Longevity</p>
                 </div>
             </div>
