@@ -8,13 +8,13 @@ function Credit() {
         <h1 className='title' style={{fontFamily:'fantasy', fontSize:'30px', textAlign:'center', paddingTop:'80px'}}>Why Credit Management Matters?</h1>
         <center><div className='container'>
             <div className='innerContainer'>
-                <div className='textContainer' style={{width:'420px'}}>
+                <div className='textContainer' style={{width:'400px'}}>
                     <p style={{color:'black'}}>Buiding Trust</p>
                 </div>
-                <div className='textContainer' style={{width:'420px'}}>
+                <div className='textContainer' style={{width:'400px'}}>
                     <p style={{color:'black'}}>Improving Access to Capital</p>
                 </div>
-                <div className='textContainer' style={{width:'420px'}}>
+                <div className='textContainer' style={{width:'400px'}}>
                     <p style={{color:'black'}}>Cash Flow Management</p>
                 </div>
             </div>

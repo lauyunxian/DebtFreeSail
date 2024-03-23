@@ -8,23 +8,23 @@ function Budgeting() {
         <h1 className='title' style={{fontFamily:'fantasy', fontSize:'30px', textAlign:'center', paddingTop:'80px'}}>Why Budgeting Matters?</h1>
         <center><div className='container'>
             <div className='innerContainer'>
-                <div className='textContainer' style={{width:'380px'}}>
+                <div className='textContainer' style={{width:'350px'}}>
                     <p style={{color:'black'}}>Take control of your finances</p>
                 </div>
                 <div className='textContainer' style={{width:'450px'}}>
                     <p style={{color:'black'}}>Identify areas where you can save money</p>
                 </div>
-                <div className='textContainer' style={{width:'500px'}}>
-                    <p style={{color:'black'}}>Avoid overspending and accumulating debt</p>
+                <div className='textContainer' style={{width:'400px'}}>
+                    <p style={{color:'black'}}>Reach your financial goals faster</p>
                 </div>
             </div>
         </div></center>
         <center><div className='container'>
-            <div className='innerContainer' style={{width:'50%'}}>
-                <div className='textContainer' style={{width:'290px'}}>
-                    <p style={{color:'black'}}>Reach your financial goals faster</p>
+            <div className='innerContainer' style={{width:'65%'}}>
+                <div className='textContainer' style={{width:'380px'}}>
+                    <p style={{color:'black'}}>Avoid overspending and accumulating debt</p>
                 </div>
-                <div className='textContainer' style={{width:'340px'}}>
+                <div className='textContainer' style={{width:'350px'}}>
                     <p style={{color:'black'}}>Reduce stress and anxiety about money</p>
                 </div>
             </div>
