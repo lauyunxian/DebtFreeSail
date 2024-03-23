@@ -39,7 +39,7 @@ const Offer = () => {
             <h2>Credit Counselling</h2>
             <h3 style={{ fontSize: '1.3em', color: '#b0e0e6', marginBottom: '5px' }}>Invest in Freedom</h3>
             <p style={{color:'white'}}>Priority returns and peace of mind for debt elimination</p>
-            <a href="/credit-counselling">Read More</a>
+            <a href="/credit-counsellor">Read More</a>
           </div>
         </div>
       </div>

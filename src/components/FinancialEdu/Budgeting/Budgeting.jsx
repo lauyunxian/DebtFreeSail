@@ -9,23 +9,23 @@ function Budgeting() {
         <center><div className='container'>
             <div className='innerContainer'>
                 <div className='textContainer' style={{width:'350px'}}>
-                    <p style={{color:'black'}}>Take control of your finances</p>
+                    <p style={{color:'black', fontSize:'15.5px'}}>Take control of your finances</p>
                 </div>
-                <div className='textContainer' style={{width:'450px'}}>
-                    <p style={{color:'black'}}>Identify areas where you can save money</p>
+                <div className='textContainer' style={{width:'470px'}}>
+                    <p style={{color:'black', fontSize:'14.8px'}}>Identify areas where you can save money</p>
                 </div>
-                <div className='textContainer' style={{width:'400px'}}>
-                    <p style={{color:'black'}}>Reach your financial goals faster</p>
+                <div className='textContainer' style={{width:'380px'}}>
+                    <p style={{color:'black', fontSize:'15px'}}>Reach your financial goals faster</p>
                 </div>
             </div>
         </div></center>
         <center><div className='container'>
             <div className='innerContainer' style={{width:'65%'}}>
                 <div className='textContainer' style={{width:'380px'}}>
-                    <p style={{color:'black'}}>Avoid overspending and accumulating debt</p>
+                    <p style={{color:'black', fontSize:'15px'}}>Avoid overspending and accumulating debt</p>
                 </div>
                 <div className='textContainer' style={{width:'350px'}}>
-                    <p style={{color:'black'}}>Reduce stress and anxiety about money</p>
+                    <p style={{color:'black', fontSize:'15px'}}>Reduce stress and anxiety about money</p>
                 </div>
             </div>
         </div></center>

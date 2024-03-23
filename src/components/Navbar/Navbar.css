@@ -75,7 +75,7 @@ nav .wrapper{
 .nav-links .drop-menu{
   position: absolute;
   background: #242526;
-  width: 180px;
+  width: 200px;
   line-height: 45px;
   top: 85px;
   opacity: 0;
