@@ -115,7 +115,7 @@ function InvestmentSch() {
         <br />
         <br />
 
-        <h1 className={styles.title} style={{fontFamily:'fantasy', fontSize:'30px', textAlign:'center', paddingBottom:'30px'}}>Why Debt Consolidation is a Promising Consolidation?</h1>
+        <h1 className={styles.title} style={{fontFamily:'fantasy', fontSize:'30px', textAlign:'center', paddingBottom:'30px'}}>Why Debt Consolidation is a Promising Investment?</h1>
         <center><div className={styles.container} style={{margin:'0 auto', maxWidth:'60%', paddingTop:'15px'}}>
             <div className={styles.imageTextWrapper}>
                 <div className={styles.imageTextItem}>
